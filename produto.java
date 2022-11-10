@@ -1,4 +1,3 @@
-package loja;
 public class produto {
 	int codigo_produto;
 	String nome_produto;
@@ -7,5 +6,13 @@ public class produto {
 	public void verificarProduto() {
 		
 	}
+	public void cadastrodeprodutos(String n_produto, double preco) {
+		this.nome_produto = n_produto;
+		this.preco = preco;
+		
+	}
+	
+	
 	
 }
+

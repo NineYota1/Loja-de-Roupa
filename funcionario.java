@@ -1,4 +1,3 @@
-package loja;
 public class funcionario {
 	String matricula;
 	String nome;
@@ -11,5 +10,8 @@ public void comissão() {
 }
 public void pesquisa(String matricula) {
 	
-}	
+	}
+
+
+
 }

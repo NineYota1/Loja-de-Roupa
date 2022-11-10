@@ -1,5 +1,3 @@
-package loja;
-
 import java.util.Date;
 
 public class venda {
@@ -9,7 +7,20 @@ public class venda {
 	Date data_venda;
 	String equipamento;
 	
+	
+	
+	
 public void CalcValorVenda(int produto[],String valor[]) {
 	
+	}
+
+
+public void formasdepagamento(String forma_pagamento) {
+	this.forma_pagamento = forma_pagamento;
+	
 }
+
+
+
+
 }
