@@ -6,6 +6,7 @@ package loja;
 		String Endereço;
 		String cidade;
 		String data_Admissao;
+		int x = 0;
 		
 		Scanner len = new Scanner(System.in);
 		produto p5 = new produto();
@@ -47,15 +48,15 @@ package loja;
 				
 			else if (op==4) {}
 				
-			else {
-				while(op==1||op==2||op==3||op==4) {
-					System.out.println("A opção selecionada não existe!");
-					System.out.print(" Digite a opção escolhida: ");
-					op = len.nextInt();
-				}
+			else if (op!=1||op!=2||op!=3||op!=4){ 
+				
 			}
-			}
+			
 		}
-	
+					
 	}
+}
+		
+	
+	
 

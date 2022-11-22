@@ -12,8 +12,10 @@ public class venda {
 
 	Scanner len = new Scanner(System.in);
 	produto p5 = new produto();
+	
     public void formasdepagamento(String forma_pagamento) {
 	this.forma_pagamento = forma_pagamento;
+	
 	if(forma_pagamento == "Credito"||forma_pagamento == "CREDITO"||forma_pagamento == "credito") {
 		double venda = p5.preco%0.8;
 		System.out.println("No Modo Credito acrescentará 8% de taxa!");
@@ -26,7 +28,6 @@ public class venda {
 		System.out.println("Esse metodo de pagamento não existe!");
 	}
 }
-
 public void nota() {
 	System.out.println("-----------------------------------");
 	System.out.println(" nome do produto: "+ p5.nome_produto);
