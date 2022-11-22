@@ -18,7 +18,7 @@ public class venda {
 		double venda = p5.preco%0.8;
 		System.out.println("No Modo Credito acrescentará 8% de taxa!");
 	}
-	if(forma_pagamento == "Debito"||forma_pagamento == "DEBITO"||forma_pagamento == "debito") {
+	else if(forma_pagamento == "Debito"||forma_pagamento == "DEBITO"||forma_pagamento == "debito") {
 		double venda = p5.preco;
 		System.out.println("No Modo Debito a taxa e anulada!");
 	}
